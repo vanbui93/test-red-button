@@ -1,9 +1,82 @@
+.btn-regist {
+  max-width: 518px;
+  margin: 0 auto;
+  background: #d94e09;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.28);
+}
 .btn-regist a {
-  display: inline-block;
-  text-align: center;
   margin: 15px 0;
+  font-size: 26px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  padding: 30px 0;
+}
+.btn-regist a span {
+  margin-left: 68px;
+}
+.btn-regist a::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+  left: 61px;
+  width: 72px;
+  height: 72px;
+  background-image: url("../images/icon-free.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.btn-regist a::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 35px;
+  right: 44px;
+  width: 10px;
+  height: 15px;
+  background-image: url("../images/arr.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
+@media (max-width: 320px) {
+  .btn-regist a {
+    font-size: 16px !important;
+  }
+  .btn-regist a span {
+    margin-left: 42px;
+  }
+  .btn-regist a::before {
+    top: 8px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+  }
+  .btn-regist a::after {
+    top: 30px;
+    right: 18px;
+  }
+}
+@media (min-width: 325px) and (max-width: 767px) {
+  .btn-regist a {
+    font-size: 18px;
+  }
+  .btn-regist a::before {
+    top: 2px;
+    left: 25px;
+  }
+  .btn-regist a::after {
+    top: 30px;
+    right: 18px;
+  }
+}
 @media (max-width: 767px) {
   img {
     max-width: 100%;
