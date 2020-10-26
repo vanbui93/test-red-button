@@ -14,24 +14,11 @@
     width: 100%;
     margin: 0 auto;
   }
-  #content-wrap .btn-regist {
-    width: 100%;
-  }
-  #content-wrap .btn-regist .btn {
-    padding: 10px;
-    display: block;
-  }
-  #content-wrap .btn-regist .btn img {
-    width: 355px;
-  }
 }
 @media (min-width: 768px) {
   #content-wrap {
     width: 980px;
     margin: 0 auto;
-  }
-  #content-wrap .btn-regist {
-    width: 518px;
   }
 }
 
