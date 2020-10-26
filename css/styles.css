@@ -69,7 +69,7 @@
     font-size: 18px;
   }
   .btn-regist a::before {
-    top: 2px;
+    top: 3px;
     left: 25px;
   }
   .btn-regist a::after {
