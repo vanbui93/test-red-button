@@ -1,7 +1,7 @@
 .btn-regist a {
   display: inline-block;
   text-align: center;
-  padding: 15px 0;
+  margin: 15px 0;
 }
 
 @media (max-width: 767px) {
